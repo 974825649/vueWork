@@ -1,0 +1,93 @@
+//导入全局变量
+@import "./globalVar";
+
+//字体大小
+html{
+  //1 rem = 100 px
+  font-size:625%
+}
+
+//水平垂直居中
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform:translate(-50%, -50%);
+  -moz-transform:translate(-50%, -50%);
+  transform:translate( -50%, -50%);
+}
+
+//按钮button
+.ivu-btn{
+  >span{
+    margin: auto;
+  }
+  padding: 0;
+}
+.ivu-btn:focus {
+  //box-shadow: 0 0 0 1px $theme-color;
+  //color: $theme-color;
+  box-shadow: none;
+}
+.ivu-btn-text .ivu-btn-text:active {
+  color: $theme-color;
+}
+.ivu-btn:hover {
+  color: $theme-color;
+  border-color: $theme-color;
+}
+
+//选项卡tab
+.ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: $theme-color;
+}
+
+//导航菜单栏menu
+.ivu-menu-horizontal:after{
+  display: none!important;
+}
+.ivu-menu-horizontal .ivu-menu-item,
+.ivu-menu-horizontal .ivu-menu-submenu{
+  line-height: 100%;
+  padding: 0;
+}
+.ivu-menu{
+  height: 100%;
+  line-height: 100%;
+  >li{
+    margin: 0 0.1rem;
+    .ivu-menu-submenu-title{
+      >i{
+        display: none;
+      }
+    }
+  }
+}
+
+//边框类
+.bdGray{
+  border: 0.01rem solid #dcdcdc;
+}
+
+
+//列表ul
+ul{
+  list-style: none;
+  >li{
+    margin: 0.1rem;
+  }
+}
+
+//头像avatar
+.ivu-avatar{
+  border-radius: 50%;
+  border: 0.02rem solid $theme-color;
+}
+
+//test
+.bd{
+  border: 1px solid black;
+}
+.bg{
+  background: lightpink;
+}
