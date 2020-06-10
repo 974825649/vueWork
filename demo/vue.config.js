@@ -25,7 +25,7 @@ module.exports = {
 
   // babel-loader 默认会跳过 node_modules 依赖。
   // 通过这个选项可以显式转译一个依赖。
-  transpileDependencies: [/* string or regex */],
+  transpileDependencies: [ /* string or regex */ ],
 
   // 是否为生产环境构建生成 source map？ 方便调试 快速定位错误地方
   productionSourceMap: true,
@@ -59,8 +59,8 @@ module.exports = {
         data: `
                @import "@/styles/globalVar.scss";            
               `
-        }
-      },
+      }
+    },
 
     // 为所有的 CSS 及其预处理文件开启 CSS Modules。
     // 这个选项不会影响 `*.vue` 文件。
@@ -105,5 +105,3 @@ module.exports = {
     // ...
   }
 }
-
-
