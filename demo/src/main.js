@@ -14,8 +14,6 @@ import 'iview/dist/styles/iview.css'
 import '@/styles/index.scss'
 import '@/styles/global.scss'
 
-//导入全局变量
-import Editor from './utils/editor'
 
 // 导入http连接
 import http from './api/http.js'

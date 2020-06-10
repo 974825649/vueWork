@@ -1,5 +1,4 @@
 import { Add } from '../../../views/threeJs/js/Add'
-import { Editor } from '../../../utils/editor'
 function handleAdd( opration, editor ) {
 
     let add = new Add(editor);
