@@ -10,6 +10,8 @@ import 'normalize.css'
 
 //导入公共样式
 import iView from 'iview'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import 'iview/dist/styles/iview.css'
 import '@/styles/index.scss'
 import '@/styles/global.scss'
@@ -30,6 +32,7 @@ Vue.prototype.$api = api;
 // Vue.prototype.$editor = Editor;
 
 Vue.use( iView );
+Vue.use( ElementUI ,{ size: 'small', zIndex: 3000 });
 
 new Vue({
   router,
