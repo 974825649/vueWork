@@ -27,7 +27,7 @@ Vue.prototype.$http = http;
 Vue.prototype.$fun = fun;
 Vue.prototype.$api = api;
 
-Vue.prototype.$editor = Editor;
+// Vue.prototype.$editor = Editor;
 
 Vue.use( iView );
 
