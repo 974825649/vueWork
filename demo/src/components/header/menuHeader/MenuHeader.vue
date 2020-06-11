@@ -2,7 +2,7 @@
     <div class="header">
         <Row type="flex" justify="start" class="nav-wrap">
             <Row type="flex" justify="center" align="middle" class="logo" @click.native="toIndex">
-                <img src="../../../assets/images/modelEditor/options/logo.png" alt="logo">
+                <img src="" alt="logo">
             </Row>
             <Menu mode="horizontal"  active-name="1" class="nav">
                 <Submenu name="1" class="file">

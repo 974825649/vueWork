@@ -43,30 +43,7 @@
             return {
                 // 图标数据
                 siderIconList:[
-                    {
-                        title: 'umbrella',
-                        imgUrl: require('../../../../assets/images/modelEditor/sider/umbrella.png'),
-                    },
-                    {
-                        title: '1',
-                        imgUrl: require('../../../../assets/images/modelEditor/sider/umbrella.png'),
-                    },
-                    {
-                        title: '2',
-                        imgUrl: require('../../../../assets/images/modelEditor/sider/umbrella.png'),
-                    },
-                    {
-                        title: '3',
-                        imgUrl: require('../../../../assets/images/modelEditor/sider/umbrella.png'),
-                    },
-                    {
-                        title: '4',
-                        imgUrl: require('../../../../assets/images/modelEditor/sider/umbrella.png'),
-                    },
-                    {
-                        title: '5',
-                        imgUrl: require('../../../../assets/images/modelEditor/sider/umbrella.png'),
-                    },
+              
                 ],
                 //模型数据
                 siderModelList:[
