@@ -90,7 +90,7 @@
         },
         created(){
             // 获取验证码
-            this.refreshVCode();
+            // this.refreshVCode();
         },
         methods: {
             /*

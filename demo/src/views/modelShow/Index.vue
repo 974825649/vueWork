@@ -15,6 +15,10 @@
       <ul>
         <li v-for="(item,i) in titleName" :key="i">{{ i }} 的名字 {{ item }}</li>
       </ul>
+
+      <div>
+        姓：{{name.fn}}   名：{{name.ln}}  姓名：{{fullname}}
+      </div>
     </div>
   </div>
 </template>
@@ -33,11 +37,20 @@ export default {
       t2: "<span>这是t2</span>",
       eleHref: "https://element.eleme.cn/",
       text: "hehe",
-      alltext: ""
+      alltext: "",
+      name: {
+        fn: "魂魄",
+        ln: "妖梦",
+      },
     };
   },
   components: {
     HomeHeader
+  },
+  computed:{
+    fullname(){
+      return this.name.fn + this.name.ln
+    }
   },
   methods: {
     addSome() {

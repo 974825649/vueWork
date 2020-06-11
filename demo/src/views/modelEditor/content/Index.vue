@@ -1,17 +1,14 @@
 <template>
     <div class="content">
         <div class="content-canvas">
-            <ThreeEditor></ThreeEditor>
         </div>
     </div>
 </template>
 
 <script>
-    import ThreeEditor from '../../threeJs/Index'
     export default {
         name: "content_index",
         components: {
-            ThreeEditor,
         }
     }
 </script>
