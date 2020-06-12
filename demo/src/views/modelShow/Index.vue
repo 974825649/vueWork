@@ -16,8 +16,11 @@
         <li v-for="(item,i) in titleName" :key="i">{{ i }} 的名字 {{ item }}</li>
       </ul>
 
+      <div>姓：{{name.fn}} 名：{{name.ln}} 姓名：{{fullname}}</div>
+
       <div>
-        姓：{{name.fn}}   名：{{name.ln}}  姓名：{{fullname}}
+        <h1>轮播图demo</h1>
+        <Carousel></Carousel>
       </div>
     </div>
   </div>
@@ -25,6 +28,7 @@
 
 <script>
 import HomeHeader from "@/components/header/HomeHeader";
+import Carousel from "../../components/common/Carousel";
 export default {
   name: "modelShow_index",
   data() {
@@ -40,16 +44,17 @@ export default {
       alltext: "",
       name: {
         fn: "魂魄",
-        ln: "妖梦",
-      },
+        ln: "妖梦"
+      }
     };
   },
   components: {
-    HomeHeader
+    HomeHeader,
+    Carousel,
   },
-  computed:{
-    fullname(){
-      return this.name.fn + this.name.ln
+  computed: {
+    fullname() {
+      return this.name.fn + this.name.ln;
     }
   },
   methods: {
