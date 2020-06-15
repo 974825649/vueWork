@@ -21,6 +21,7 @@
       <div>
         <h1>轮播图demo</h1>
         <Carousel></Carousel>
+        
       </div>
     </div>
   </div>
@@ -50,7 +51,7 @@ export default {
   },
   components: {
     HomeHeader,
-    Carousel,
+    Carousel
   },
   computed: {
     fullname() {
