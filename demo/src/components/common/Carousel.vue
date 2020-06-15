@@ -1,4 +1,3 @@
-<!--  -->
 <template>
   <div class="carousel">
     <img v-for="(item,i) in img" :key="i" :src="item.url" :alt="item.name" v-show="n===i" />
