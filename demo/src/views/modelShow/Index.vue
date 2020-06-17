@@ -18,6 +18,8 @@
 
       <div>姓：{{name.fn}} 名：{{name.ln}} 姓名：{{fullname}}</div>
 
+      <el-button type="" @click="test">按钮</el-button>
+      
       <div>
         <h1>轮播图demo</h1>
         <Carousel></Carousel>
@@ -61,6 +63,10 @@ export default {
   methods: {
     addSome() {
       this.alltext += this.text;
+    },
+    test(){
+      console.log(this);
+      
     }
   }
 };
